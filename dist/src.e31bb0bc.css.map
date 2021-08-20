@@ -1,1 +1,1 @@
-{"version":3,"sources":["header\\header.scss"],"names":[],"mappings":"AAAA;EACI","file":"src.e31bb0bc.css","sourceRoot":"..\\src","sourcesContent":[".item {\r\n    background-color: blue;\r\n}"]}
+{"version":3,"sources":["styles\\index.scss","header\\header.scss"],"names":[],"mappings":"AAEQ;ACFR;EACI","file":"src.e31bb0bc.css","sourceRoot":"..\\src","sourcesContent":["@import '../header/header.scss';\r\n\r\n@import url(\"https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap\");\r\n",".item {\r\n    background-color: blue;\r\n}"]}
