@@ -1,5 +1,11 @@
-ul
-  li Item A
-  li Item B
-  li Item C
+header(class="header")
+  div(class="header__item")
+    a(class="header__logo" href="") 
+  nav(class="nav")
+    ul(class="nav__list")
+      each value in ['О нас', 'Услуги', 'Вакансии', 'Новости', 'Соглашения']
+        li(class="nav__item")
+          a(class="nav__link" href="")= value  
+    a(class="nav__button" href="") Войти
+    a(class="nav__button" href="") Зарегистрироваться  
   
