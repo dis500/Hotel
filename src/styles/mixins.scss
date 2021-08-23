@@ -1,0 +1,45 @@
+@import './variables.scss';
+
+@mixin h1 {
+    font-size: $h1-size;
+    line-height: $h1-line-height;
+    font-weight: 700;
+    color: $h1-color;
+}
+
+@mixin h2 {
+    font-size: $h2-size;
+    line-height: $h2-line-height;
+    font-weight: 700;
+    color: $h1-color;
+}
+
+@mixin  h3 {
+    font-size: $h3-size;
+    line-height: $h3-line-height;
+    font-weight: 700;
+    color: $h1-color;
+} 
+    
+@mixin purple-button {
+    color: #ffffff;
+    background-color: $main-color;
+    text-transform: uppercase;
+    border-radius: 22px;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+@mixin  white-button {
+    color: $main-color;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 22px;
+    border: 2px solid $main-color;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
