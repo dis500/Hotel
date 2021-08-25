@@ -17,6 +17,36 @@
     width: 100%;
   }
 
+  .nav--opened::before, .nav--opened::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background-color: #BC9CFF;
+  }
+  .nav--opened::before {
+    top: -42px;
+    right: 28px;
+    transform: rotate(45deg);
+  }
+  .nav--opened::after {
+    top: -42px;
+    right: 28px;
+    transform: rotate(-45deg);
+  }
+
+  .nav__toggle {
+    position: absolute;
+    top: -50px;
+    right: 30px;
+    width: 21px;
+    height: 20px;
+    font-size: 0;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+  }
+
   .nav__list {
     margin: 0;
     padding: 0;

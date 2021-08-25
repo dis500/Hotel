@@ -2,7 +2,8 @@ header(class="header")
   div(class="header__item")
     a(class="header__logo" href="")
       img(src="img/Logo.svg", alt="") 
-  nav(class="nav")
+  nav(class="nav nav--opened nav--closed")
+  button(class="nav__toggle" type="button") Открыть 
     ul(class="nav__list")
       each value in ['О нас', 'Услуги', 'Вакансии', 'Новости', 'Соглашения']
         li(class="nav__item")
