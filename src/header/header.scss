@@ -1,0 +1,47 @@
+@import '../styles/mixins.scss';
+
+@media (min-width: 320px) {
+    
+    .header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 15px 20px 0 20px;
+        box-sizing: border-box;
+    }
+
+    .header__item {
+        padding-bottom: 10px;
+    }
+
+    .nav {
+        position: relative;
+        width: 100%;
+    }
+
+    .nav__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .nav__item {
+        border-bottom: solid 1px #000000;
+        cursor: pointer;
+    
+        &:first-child {
+            border-top: 1px solid #000000
+        }
+    }
+
+    .nav__link {
+        @include main-text;
+        display: block;
+        padding: 10px 0 10px 0;
+        text-decoration: none;
+
+        &:hover {
+            color: #1F2041;
+        }
+    }
+}
