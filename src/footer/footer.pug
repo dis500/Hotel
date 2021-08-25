@@ -1,0 +1,35 @@
+footer(class="footer")
+    div(class="footer__wrapper")
+        div(class="item")
+            a(class="item__logo")
+            p(class="item__text")
+
+        div(class="navigation")
+            ul(class="navigation__list") Навигация
+                each value in ['О нас', 'Новости', 'Служба поддержки', 'Услуги']
+                    li(class="navigation__item")
+                        a(class="navigation__link" href="")= value
+
+            ul(class="navigation__list") О нас
+                each value in ['О сервисе', 'Наша команда', 'Вакансии', 'Инвесторы']
+                    li(class="navigation__item")
+                        a(class="navigation__link" href="")= value
+
+            ul(class="navigation__list") Служба поддержки
+                each value in ['Соглашения', 'Сообщества', 'Связь с нами']
+                    li(class="navigation__item")
+                        a(class="navigation__link" href="")= value
+
+            div(class="navigation__item")
+                p(class="navigation__item-title") Подписка
+                p(class="navigation__item-text") Получайте специальные предложения и новости сервиса
+                input(class="navigation__item-input")
+
+    div(class="footer__item")
+        div(class="information")
+            p(class="information__text") Copyright © 2018 Toxin отель. Все права защищены.
+
+        div(class="social")
+            a(class="social__link")
+            a(class="social__link")
+            a(class="social__link")
