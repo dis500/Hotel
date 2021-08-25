@@ -20,6 +20,20 @@
     font-weight: 700;
     color: $h1-color;
 } 
+
+@mixin main-text {
+    font-size: $text-size;
+    line-height: 17.07px;
+    font-weight: 500;
+    color: rgba(31, 32, 65, 0.5);
+}
+
+@mixin secondary-text {
+    font-size: $text-size;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgba(31, 32, 65, 0.75);
+}
     
 @mixin purple-button {
     color: #ffffff;
